@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client({autoReconnect: true});
-const token = "fRnE43zyYiJ23XmQuR4XkLDK8bjP96xK";
+const token = "uYfWrvdNt4-02X4YT51rRznKwxcecBgf";
 
 client.on('ready', () => {
   console.log(`Connecté a ${client.user.tag} avec ${client.users.size} utilisateurs, dans ${client.channels.size} channel et ${client.guilds.size} guildes.!`);
@@ -59,4 +59,4 @@ client.on('message', (message) => {
 });
 
 
-client.login('TOKEN')
+client.login('uYfWrvdNt4-02X4YT51rRznKwxcecBgf')
